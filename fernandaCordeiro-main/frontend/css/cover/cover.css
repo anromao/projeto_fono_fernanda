@@ -1,0 +1,43 @@
+.secaoCover {
+    display: grid;
+    gap: 2.5em;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    max-height: 680px;
+    max-width: 1920px;
+    align-items: center;
+}
+
+.secaoCover img {
+    object-fit: cover;
+    object-position: 50% 10%;
+    width: 100%;
+    min-height: 0;
+    height: 100%;
+}
+
+.coverDireita {
+    padding: 5em 0;
+    max-width: 680px;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.coverTexto {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.coverTexto h1 {
+    color: var(--p4);
+}
+.coverTexto p {
+    color: var(--n5);
+}
+
+.coverBotoes {
+    display: flex;
+    gap: 0.5em;
+}
