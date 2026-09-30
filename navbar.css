@@ -1,0 +1,30 @@
+.navbarBg {
+    background-color: var(--p3);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1400px;
+    width: 100%;
+    padding: 2em 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2.5em;
+}
+
+nav ul > *:not(:last-child):hover {
+    color: var(--n2);
+}

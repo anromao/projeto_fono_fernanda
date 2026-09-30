@@ -1,0 +1,32 @@
+.footerBg {
+    background-color: var(--p3);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.secaoFooter {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2.5em;
+    padding: 4.5em;
+}
+
+.secaoFooter > * {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.secaoFooter > *:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.secaoFooter ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: start;
+}
